@@ -23,7 +23,7 @@ function sortList(list) {
   // ul.innerHTML = '';
 
   // // Append sorted items back to the list
-  items.forEach((item) => ul.appendChild(item));
+  items.forEach((item) => list.appendChild(item));
 }
 
 function getEmployees(list) {
